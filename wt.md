@@ -89,6 +89,8 @@ _其实建这个文件夹就是为了存放图标而已，理解后可以自己�
 新建一个文件，文件名随意 比如我的：`addwt.reg`。记得保存为`.reg`文件
 
 ```
+Windows Registry Editor Version 5.00
+
 [HKEY_CLASSES_ROOT\Directory\Background\shell\wt]
 @="Windows Terminal"
 "Icon"="%USERPROFILE%\\AppData\\Local\\Terminal\\terminal.ico"
