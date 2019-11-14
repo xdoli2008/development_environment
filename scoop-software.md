@@ -87,7 +87,7 @@ scoop install  nodejs
 scoop install mysql
 ```
 
-### 编辑工具 - VSCode && sublime
+### 编辑工具 - VSCode && sublime-text
 
 [vscode](https://code.visualstudio.com/) [sublime](https://www.sublimetext.com/)
 
@@ -120,7 +120,7 @@ scoop install  postman
 scoop install everything
 ```
 
-### 快速启动工具 - Wox || Listary
+### 快速启动工具 - Wox
 
 [wox](http://www.wox.one/)
 
