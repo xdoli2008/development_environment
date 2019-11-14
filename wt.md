@@ -8,10 +8,10 @@
 
 ### 安装
 
-MicroSoft Store下载
+MicroSoft Store下载安装
+
 ![](https://oos-cn-kirayoshikage.oss-cn-hangzhou.aliyuncs.com/images/20190901171122.png)
 
-点击直接安装即
 ![](https://oos-cn-kirayoshikage.oss-cn-hangzhou.aliyuncs.com/images/20190901171658.png)
 
 ### 美化
