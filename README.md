@@ -1,4 +1,4 @@
 # 我的开发环境配置 - Windows
-1. scoop
-2. idea
-3. hihi
+
++ **[windows terminal](wt.md)**
++ **[scoop](scoop.md)**

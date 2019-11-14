@@ -2,11 +2,7 @@
 
 [windows terminal](https://github.com/microsoft/terminal) 是今年微软Build大会上推出的一款的全新终端，用来代替cmder之类的第三方终端。具有亚克力透明、多标签、Unicode支持(中文,Emoji)、自带等宽字体等这些特性。
 
-* [安装](###安装)
-* [美化](###美化)
-* [添加右键](###添加右键)
-
-### 安装
+## 安装
 
 >MicroSoft Store下载安装
 
@@ -14,7 +10,7 @@
 
 ![2](https://oos-cn-kirayoshikage.oss-cn-hangzhou.aliyuncs.com/images/20190901171658.png)
 
-### 美化
+## 美化
 
 ```json
 {
@@ -72,9 +68,9 @@
 }
 ```
 
-### 添加右键
+## 添加右键
 
-#### 创建图标文件夹
+### 创建图标文件夹
 
 `C:\Users\你的用户名\AppData\Local 新建一个 Terminal 文件夹`
 
@@ -84,11 +80,11 @@ mkdir "%USERPROFILE%\AppData\Local\Terminal"
 
 _其实建这个文件夹就是为了存放图标而已，理解后可以自己找一个地方放[图标](https://raw.githubusercontent.com/microsoft/terminal/master/res/terminal.ico)
 
-#### 添加注册表文件
+### 添加注册表文件
 
 >新建一个文件，文件名随意 比如我的：`addwt.reg`。记得保存为`.reg`文件
 
-```
+```powershell
 Windows Registry Editor Version 5.00
 
 [HKEY_CLASSES_ROOT\Directory\Background\shell\wt]
