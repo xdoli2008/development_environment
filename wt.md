@@ -8,11 +8,11 @@
 
 ### 安装
 
-MicroSoft Store下载安装
+>MicroSoft Store下载安装
 
-![](https://oos-cn-kirayoshikage.oss-cn-hangzhou.aliyuncs.com/images/20190901171122.png)
+![1](https://oos-cn-kirayoshikage.oss-cn-hangzhou.aliyuncs.com/images/20190901171122.png)
 
-![](https://oos-cn-kirayoshikage.oss-cn-hangzhou.aliyuncs.com/images/20190901171658.png)
+![2](https://oos-cn-kirayoshikage.oss-cn-hangzhou.aliyuncs.com/images/20190901171658.png)
 
 ### 美化
 
@@ -86,7 +86,7 @@ _其实建这个文件夹就是为了存放图标而已，理解后可以自己�
 
 #### 添加注册表文件
 
-新建一个文件，文件名随意 比如我的：`addwt.reg`。记得保存为`.reg`文件
+>新建一个文件，文件名随意 比如我的：`addwt.reg`。记得保存为`.reg`文件
 
 ```
 Windows Registry Editor Version 5.00
@@ -99,14 +99,4 @@ Windows Registry Editor Version 5.00
 @="C:\\Users\\[你的电脑用户名！你的电脑用户名！你的电脑用户名！]\\AppData\\Local\\Microsoft\\WindowsApps\\wt.exe"
 ```
 
-执行 reg 文件。发现右键菜单就多了一个 Windows Terminal here 的选项了！
-
-
-
-
-
-
-
-
-
-
+>执行 reg 文件。发现右键菜单就多了一个 Windows Terminal here 的选项了！
