@@ -24,13 +24,92 @@ scoop install aria2
 scoop install git
 ```
 
+### sudo
+
+[官网](https://github.com/lukesampson/psutils)
+
+```powershell
+# 通过 scoop 安装
+scoop install sudo
+```
+
 ### 压缩 && 解压缩工具 - bandizip
 
 [官网](http://www.bandisoft.com/bandizip/)
 
 ```powershell
-# 通过 scoop 安装 依赖 extras bucket
+# 通过 scoop 安装
 scoop install bandizip
+```
+
+### 浏览器 -  googlechrome
+
+[官网](https://www.google.com/chrome/)
+
+```powershell
+# 通过 scoop 安装
+scoop install googlechrome
+```
+
+### JDK -   openjdk
+
+[官网](https://jdk.java.net/)
+
+```powershell
+# 通过 scoop 安装
+scoop install openjdk
+```
+
+### maven -   maven
+
+[官网](https://maven.apache.org/)
+
+```powershell
+# 通过 scoop 安装
+scoop install maven
+```
+
+### nodejs
+
+[官网](https://nodejs.org/en/)
+
+```powershell
+# 通过 scoop 安装
+scoop install  nodejs
+```
+
+### 数据库 -   mysql
+
+[官网](https://dev.mysql.com/downloads/mysql/)
+
+```powershell
+# 通过 scoop 安装
+scoop install mysql
+```
+
+### 编辑工具 - VSCode && sublime
+
+[vscode](https://code.visualstudio.com/) [sublime](https://www.sublimetext.com/)
+
+```powershell
+scoop install vscode
+scoop install sublime-text
+```
+
+### 编译器IDE -  IntelliJ-IDEA
+
+[官网](https://www.jetbrains.com/idea/)
+
+```powershell
+scoop install  IntelliJ-IDEA
+```
+
+### 接口调试 -  postman
+
+[官网](https://www.getpostman.com/)
+
+```powershell
+scoop install  postman
 ```
 
 ### 快速搜索工具 - Everything
@@ -49,15 +128,6 @@ scoop install everything
 scoop install wox
 ```
 
-### 编辑工具 - VSCode && sublime
-
-[vscode](https://code.visualstudio.com/) [sublime](https://www.sublimetext.com/)
-
-```powershell
-scoop install vscode
-scoop install sublime-text
-```
-
 ### 字体 - Hack-NF
 
 ```powershell
@@ -66,28 +136,12 @@ scoop bucket add nerd-fonts
 scoop install Hack-NF
 ```
 
-### 屏幕显示按钮工具 - carnac
-
-[github](https://github.com/Code52/carnac)
-
-```powershell
-scoop install carnac
-```
-
 ### Markdown 编辑器 - Typora
 
 [typora](https://typora.io/)
 
 ```powershell
 scoop install typora
-```
-
-### 数据库工具 - Heidisql
-
-[heidisql](https://www.heidisql.com/)
-
-```powershell
-scoop install heidisql
 ```
 
 ### 卸载工具 - Geek uninstaller
@@ -110,6 +164,14 @@ scoop install mpc-be
 scoop install obs-studio
 ```
 
+### 快速预览工具 - QuickLook
+
+微软应用商店获取 uwp 版本，scoop 可以获取常规版本
+
+```powershell
+scoop install quicklook
+```
+
 ### 刻录工具 - Rufus
 
 [官网](http://rufus.ie/)
@@ -118,10 +180,36 @@ scoop install obs-studio
 scoop install rufus
 ```
 
-### 快速预览工具 - QuickLook
+### 屏幕显示按钮工具 - carnac
 
-微软应用商店获取 uwp 版本，scoop 可以获取常规版本
+[github](https://github.com/Code52/carnac)
 
 ```powershell
-scoop install quicklook
+scoop install carnac
 ```
+
+### 网盘工具 - pandownload
+
+[github](https://pandownload.com/)
+
+```powershell
+scoop install pandownload
+```
+
+## VSCode 插件
+
+### UML 工具 - plantUML
+
+[homepage](http://plantuml.com/)
+
+### Http Client - REST Client
+
+## Chrome 插件
+
+### 网页阅读模式 - Fika
+
+注意：目前存在无法登录的 BUG，无法使用自动启动的功能
+
+### JSON 显示插件 -  JSON Viewer Awesome
+
+### Github 目录树 -  Octotree
