@@ -26,7 +26,7 @@ scoop install git
 
 ### sudo
 
-[官网](https://github.com/lukesampson/psutils)
+[github](https://github.com/lukesampson/psutils)
 
 ```powershell
 # 通过 scoop 安装
@@ -122,7 +122,7 @@ scoop install everything
 
 ### 快速启动工具 - Wox
 
-[wox](http://www.wox.one/)
+[官网](http://www.wox.one/)
 
 ```powershell
 scoop install wox
@@ -138,7 +138,7 @@ scoop install Hack-NF
 
 ### Markdown 编辑器 - Typora
 
-[typora](https://typora.io/)
+[官网](https://typora.io/)
 
 ```powershell
 scoop install typora
@@ -190,17 +190,72 @@ scoop install carnac
 
 ### 网盘工具 - pandownload
 
-[github](https://pandownload.com/)
+[官网](https://pandownload.com/)
 
 ```powershell
 scoop install pandownload
 ```
 
+### 磁力下载工具 - Motrix
+
+[官网](https://motrix.app/)
+
+```powershell
+scoop install Motrix
+```
+
+### 音乐播放器 - Foobar2000
+
+[官网](https://www.foobar2000.org/)
+
+```powershell
+scoop install Foobar2000
+```
+
+### 任务栏透明 -  translucenttb
+
+[github](https://github.com/TranslucentTB/TranslucentTB)
+
+```powershell
+scoop install translucenttb
+```
+
+### 截图软件 -  Snipaste
+
+[官网](https://zh.snipaste.co/)
+
+```powershell
+scoop install Snipaste
+```
+
+### 自动化脚本语言 -  AutoHotkey
+
+[官网](https://www.autohotkey.com)
+
+```powershell
+scoop install AutoHotkey
+```
+
+### 免费且功能齐全的 CPU 监控工具 -  CPU-Z
+
+[官网](https://www.cpuid.com/softwares/cpu-z.html)
+
+```powershell
+scoop install CPU-Z
+```
+
+### 解除无法删除文件的锁定 -  Unlocker
+
+[官网](https://www.softpedia.com/get/System/System-Miscellaneous/Unlocker.shtml)
+
+```powershell
+scoop install Unlocker
+```
 ## VSCode 插件
 
 ### UML 工具 - plantUML
 
-[homepage](http://plantuml.com/)
+[官网](http://plantuml.com/)
 
 ### Http Client - REST Client
 
