@@ -51,13 +51,13 @@ scoop install bandizip
 scoop install googlechrome
 ```
 
-### JDK -   openjdk
+### JDK -   adopt8-hotspot
 
-[官网](https://jdk.java.net/)
+[官网](https://adoptopenjdk.net/)
 
 ```powershell
 # 通过 scoop 安装
-scoop install openjdk
+scoop install adopt8-hotspot
 ```
 
 ### maven -   maven
@@ -251,6 +251,7 @@ scoop install CPU-Z
 ```powershell
 scoop install Unlocker
 ```
+
 ## VSCode 插件
 
 ### UML 工具 - plantUML

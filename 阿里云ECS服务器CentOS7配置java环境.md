@@ -154,7 +154,3 @@ mysql> show variables like '%sche%';
 ```
 
 `event_scheduler=ON` 表示开启成功
-
-
-
-
