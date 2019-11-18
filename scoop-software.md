@@ -251,21 +251,3 @@ scoop install CPU-Z
 ```powershell
 scoop install Unlocker
 ```
-
-## VSCode 插件
-
-### UML 工具 - plantUML
-
-[官网](http://plantuml.com/)
-
-### Http Client - REST Client
-
-## Chrome 插件
-
-### 网页阅读模式 - Fika
-
-注意：目前存在无法登录的 BUG，无法使用自动启动的功能
-
-### JSON 显示插件 -  JSON Viewer Awesome
-
-### Github 目录树 -  Octotree
