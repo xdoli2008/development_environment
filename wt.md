@@ -1,6 +1,6 @@
 # Windows Terminal
 
-[windows terminal](https://github.com/microsoft/terminal) 是今年微软Build大会上推出的一款的全新终端，用来代替cmder之类的第三方终端。具有亚克力透明、多标签、Unicode支持(中文,Emoji)、自带等宽字体等这些特性。
+> [windows terminal](https://github.com/microsoft/terminal) 是今年微软Build大会上推出的一款的全新终端，用来代替cmder之类的第三方终端。具有亚克力透明、多标签、Unicode支持(中文,Emoji)、自带等宽字体等这些特性。
 
 ## 安装
 
@@ -11,6 +11,8 @@
 ![2](https://oos-cn-kirayoshikage.oss-cn-hangzhou.aliyuncs.com/images/20190901171658.png)
 
 ## 美化
+
+> [美化来源](https://gitee.com/dragondove/notes/blob/master/Misc/%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90.md)
 
 ```json
 {

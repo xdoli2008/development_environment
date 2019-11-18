@@ -1,5 +1,7 @@
 # scoop
 
+## **转载** [https://gitee.com/dragondove/notes/blob/master/Misc/scoop.md](https://gitee.com/dragondove/notes/blob/master/Misc/scoop.md) 感谢带我入坑
+
 [[官网]](https://scoop.sh)    [[github]](https://github.com/lukesampson/scoop)    [[wiki]](https://github.com/lukesampson/scoop/wiki)
 
 >## [scoop开发软件安装](scoop-software.md)
@@ -9,6 +11,7 @@
 ```powershell
 # 将执行权限改为本地无需签名
 Set-ExecutionPolicy RemoteSigned -scope CurrentUser
+
 # 下载并执行脚本 下面有安装到其他盘的教程
 iwr -useb get.scoop.sh | iex
 ```

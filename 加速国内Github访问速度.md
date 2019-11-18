@@ -1,6 +1,6 @@
 # 加速国内Github访问速度
 
-## [原作者](https://bestzuo.cn/posts/497652030.html)
+## **转载** [https://bestzuo.cn/posts/497652030.html](https://bestzuo.cn/posts/497652030.html)
 
 >由于某些原因，国内访问 Github 会异常缓慢，在 clone 仓库时甚至只有 10kb/s 以下的速度，下载半天有时还会失败需要从头再来，甚是让人恼火。 本文介绍通过修改系统 hosts 文件的办法，绕过国内 DNS 解析，直接访问GitHub 的 CDN 节点，从而达到加速的目的。不需要科学上网，也不需要海外的服务器辅助。
 
