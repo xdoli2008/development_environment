@@ -135,7 +135,7 @@ mysql> update user set authentication_string=PASSWORD('123456') where user='root
 mysql> flush privileges;
 ```
 
-**开启定时任务**
+### 开启定时任务
 
 > 查找my.cnf 配置文件
 
@@ -145,7 +145,9 @@ mysql> flush privileges;
 
 > 编辑my.cnf 配置文件、在文件最后添加
 
-`event_scheduler = 1` 重启mysql `service mysqld restart`
+`event_scheduler = 1`
+
+重启mysql `service mysqld restart`
 
 > 查看是否开启定时任务
 
@@ -154,3 +156,11 @@ mysql> show variables like '%sche%';
 ```
 
 `event_scheduler=ON` 表示开启成功
+
+### 解决 Group by 查询时的ONLY_FULL_GROUP_BY错误
+
+> 编辑my.cnf 配置文件、在文件最后添加
+
+`sql_mode = STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUT`
+
+重启mysql `service mysqld restart`
