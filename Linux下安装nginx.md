@@ -226,4 +226,4 @@ http {
 
 ### 重新加载配置文件
 
-`./nginx -s reload`
+`nginx -s reload`
