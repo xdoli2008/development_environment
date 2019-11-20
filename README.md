@@ -2,7 +2,7 @@
 
 > 自用开发环境
 
-+ **[windows terminal](wt.md)**
++ **[windows terminal](WindowsTerminal.md)**
 + **[scoop](scoop.md)**
 + **[scoop-开发软件](scoop-software.md)**
 + **[阿里云ECS服务器CentOS7配置java环境](阿里云ECS服务器CentOS7配置java环境.md)**

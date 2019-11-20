@@ -103,4 +103,3 @@
 > 为alt+Enter的菜单追加一项功能
 
 ![1](https://spldeolin.com/images/effective-idea-plugin-01.gif)
-
