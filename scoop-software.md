@@ -96,12 +96,12 @@ scoop install vscode
 scoop install sublime-text
 ```
 
-### 编译器IDE -  IntelliJ-IDEA
+### 编译器IDE -  idea-ultimate
 
 [官网](https://www.jetbrains.com/idea/)
 
 ```powershell
-scoop install  IntelliJ-IDEA
+scoop install  idea-ultimate
 ```
 
 ### 接口调试 -  postman
