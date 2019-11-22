@@ -28,9 +28,9 @@
             "colorScheme": "Material Dark",
             "useAcrylic": true,
             "acrylicOpacity": 0.8,
-            "fontFace": "Cascadia Code",
+            "fontFace": "Hack NF",
             "fontSize": 13,
-            "startingDirectory": "./",
+            "startingDirectory":"./",
             "hidden": false
         },
         {
@@ -39,6 +39,12 @@
             "name": "cmd",
             "commandline": "cmd.exe",
             "hidden": false
+        },
+        {
+            "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
+            "hidden": false,
+            "name": "Azure Cloud Shell",
+            "source": "Windows.Terminal.Azure"
         }
     ],
     "schemes": [
@@ -66,9 +72,242 @@
             "background": "#171717"
         }
     ],
-    "keybindings": []
+    "keybindings":[
+        {
+            "command":"copy",
+            "keys":[
+                "ctrl+c"
+            ]
+        },
+        {
+            "command":"paste",
+            "keys":[
+                "ctrl+v"
+            ]
+        },
+        {
+            "command":"newTab",
+            "keys":[
+                "ctrl+n"
+            ]
+        },
+        {
+            "command":"closeTab",
+            "keys":[
+                "ctrl+shift+w"
+            ]
+        },
+        {
+            "command":"splitHorizontal",
+            "keys":[
+                "alt+["
+            ]
+        },
+         {
+            "command":"splitVertical",
+            "keys":[
+                "alt+]"
+            ]
+        },
+         {
+            "command":"moveFocusUp",
+            "keys":[
+                "alt+up"
+            ]
+        },
+         {
+            "command":"moveFocusDown",
+            "keys":[
+                "alt+down"
+            ]
+        },
+         {
+            "command":"moveFocusLeft",
+            "keys":[
+                "alt+left"
+            ]
+        },
+          {
+            "command":"moveFocusRight",
+            "keys":[
+                "alt+right"
+            ]
+        },
+          {
+            "command":"resizePaneUp",
+            "keys":[
+                "ctrl+alt+up"
+            ]
+        },
+          {
+            "command":"resizePaneDown",
+            "keys":[
+                "ctrl+alt+down"
+            ]
+        },
+          {
+            "command":"resizePaneLeft",
+            "keys":[
+                "ctrl+alt+left"
+            ]
+        },
+         {
+            "command":"resizePaneRight",
+            "keys":[
+                "ctrl+alt+right"
+            ]
+        },
+         {
+            "command":"closePane",
+            "keys":[
+                "ctrl+w"
+            ]
+        },
+         {
+            "command":"switchToTab0",
+            "keys":[
+                "ctrl+1"
+            ]
+        },
+         {
+            "command":"switchToTab1",
+            "keys":[
+                "ctrl+2"
+            ]
+        },
+        {
+            "command":"switchToTab2",
+            "keys":[
+                "ctrl+3"
+            ]
+        },
+        {
+            "command":"switchToTab3",
+            "keys":[
+                "ctrl+4"
+            ]
+        },
+        {
+            "command":"switchToTab4",
+            "keys":[
+                "ctrl+5"
+            ]
+        },
+        {
+            "command":"switchToTab5",
+            "keys":[
+                "ctrl+6"
+            ]
+        },
+        {
+            "command":"switchToTab6",
+            "keys":[
+                "ctrl+7"
+            ]
+        },
+        {
+            "command":"switchToTab7",
+            "keys":[
+                "ctrl+8"
+            ]
+        },
+          {
+            "command":"scrollUp",
+            "keys":[
+                "ctrl+up"
+            ]
+        },
+          {
+            "command":"scrollUpPage",
+            "keys":[
+                "ctrl+shift+up"
+            ]
+        },
+          {
+            "command":"scrollDown",
+            "keys":[
+                "ctrl+down"
+            ]
+        },
+          {
+            "command":"scrollDownPage",
+            "keys":[
+                "ctrl+shift+down"
+            ]
+        }
+    ]
 }
 ```
+
+## Tab自动补全
+
+>首先，`notepad $PROFILE` 打开PowerShell自定义profile文件、输入代码 `Set-PSReadlineKeyHandler -Key Tab -Function MenuComplete`
+
+```powershell
+# 如果之前没有配置文件，就新建一个 PowerShell 配置文件
+if (!(Test-Path -Path $PROFILE )) { New-Item -Type File -Path $PROFILE -Force }
+# 用记事本打开配置文件
+notepad $PROFILE
+```
+
+## PoShFuck
+
+[github](https://github.com/mattparkes/PoShFuck)
+
+`管理员模式运行terminal`
+
+> 输入错误的命令时，请输入 “ fuck”
+
+```powershell
+Set-ExecutionPolicy RemoteSigned
+iex ((new-object net.webclient).DownloadString('https://raw.githubusercontent.com/mattparkes/PoShFuck/master/Install-TheFucker.ps1'))
+```
+
+`fuck`（别名Invoke-TheFuck）
+这是命令，它合并了您的最后一个命令，并为您提供了修复它的选项。
+
+`fuck!`（别名Invoke-TheFuck -Force）
+此命令将执行建议的选项，而不会提示用户。
+
+`WTF`（别名为Get-FuckingHelp）
+Googles您的上一个控制台错误。
+
+`Get-Fucked`
+打印您以前使用PoShFuck进行更正的命令列表。
+
+## 安装fzf
+
+`管理员模式运行terminal`
+
+### 首先安装fzf
+
+```powershell
+scoop install fzf
+```
+
+### 安装Powershell的fzf容器
+
+```powershell
+Install-Module PSFzf
+```
+
+### Profile中禁用默认按键 - 放在Import上面
+
+```powershell
+Remove-PSReadlineKeyHandler 'Ctrl+r'
+```
+
+### Profile中启用PSFzf
+
+```powershell
+Import-Module PSFzf
+```
+
+`Ctrl+r`
+显示命令行记录、可检索
+
+`Ctrl+t`
+显示文件下所有文件、可检索
 
 ## 添加右键
 
