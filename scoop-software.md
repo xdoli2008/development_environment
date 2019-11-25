@@ -251,3 +251,11 @@ scoop install CPU-Z
 ```powershell
 scoop install Unlocker
 ```
+
+### 多媒体解码，编码， 转码 -  FFmpeg
+
+[官网](https://www.ffmpeg.org/)
+
+```powershell
+scoop install FFmpeg
+```
