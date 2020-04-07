@@ -8,7 +8,9 @@
 + **[阿里云ECS服务器CentOS7配置java环境](阿里云ECS服务器CentOS7配置java环境.md)**
 + **[linux运行springboot项目](linux运行springboot项目.md)**
 + **[IntelliJ IDEA插件](IntelliJIDEA插件.md)**
++ **[浏览器插件](浏览器插件.md)**
 + **[后端页面模板](后端页面模板.md)**
 + **[加速国内Github访问速度](加速国内Github访问速度.md)**
 + **[后端架构师技术图谱](https://github.com/xdoli2008/architect-awesome)**
 + **[后端页面模板](后端页面模板.md)**
+
